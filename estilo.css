@@ -1,0 +1,61 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background: radial-gradient(rgb(109, 30, 30), black);   
+}
+p {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px !important;
+}
+
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+h4 {
+    color: black;
+}
+h5 {
+    color: black;
+}
+.custom-button {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(59, 57, 57);
+}
+
+.card-body {
+    flex: 1;
+}
+
+.accordion {
+    margin: 0 auto;  
+    width: 50%;  
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.425);
+    z-index: 1;    
+}
+
+   
+
